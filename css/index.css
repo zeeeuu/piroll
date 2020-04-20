@@ -1,0 +1,185 @@
+:root{
+	--theme:#10C9C3 !important;
+  }
+  html{
+  	scroll-behavior: smooth
+  }
+body{
+	overflow-x:hidden 
+}
+header{
+  background: url('../images/banner.jpg') no-repeat 0px 100%/cover; 
+  -o-background-size: cover; background-size: cover;
+  width: 100vw; height: 100vh; 
+}
+body{
+   font-family: 'Montserrat', sans-serif;	
+}
+footer{
+        
+}
+.web-text{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.theme-bg{
+  background: var(--theme)
+}
+.theme-color{
+  color:var(--theme);
+}
+.text-decoration-none{
+	text-decoration: none !important
+}
+.skills-image{
+	background: url('../images/notepad.jpg'); -o-background-size: cover; background-size: cover;
+	 
+}
+.background{
+	background: #f9f9f9
+}
+.white-space{
+	padding-top: 150px; padding-bottom: 150px
+}
+.skills-icon{
+	font-size: 48px; 
+}
+.skill-name{
+	display: block;
+}
+.work-hover{
+	width: 100%; height: 300px;  background: #343434; visibility: hidden;
+	 opacity: 0.6; line-height: 300px
+}
+.work-hover i{
+	font-size:72px; color:white;
+}
+.text-grey{
+	color:grey;
+}
+#reviews{
+	width: 100%; height: 320px; 
+}
+/*.review{
+	height: 320px; width: 100%; top: 0; left: 0; display: none; font-size: 24px;
+	font-weight: bold
+}*/
+.review{
+	 width: 100%;font-size: 24px;
+	font-weight: bold
+}
+.indicator{
+	width: 10px; height: 10px; border-radius: 50%; background: lightgrey;
+	display: inline-block;
+}
+.active-indicator{
+	-webkit-transform:scale(1.2,1.2);
+	   -moz-transform:scale(1.2,1.2);
+	    -ms-transform:scale(1.2,1.2);
+	     -o-transform:scale(1.2,1.2);
+	        transform:scale(1.2,1.2); background: white
+}
+.display-block{
+	display: block
+}
+.font-size-14{
+	font-size:14px;
+}
+#contact{
+	width: 100%; height: auto;}
+input,textarea{
+   width: 100%; height: 50px; border:none; background: white
+}
+textarea{
+	height: 150px
+}
+.footer-links{
+	text-decoration: none !important; color : grey ;
+}
+.text-grey{
+	color:grey !important;
+}
+#works .row:first-child > div:first-child{
+    background: url('../images/product-1.jpg') no-repeat left top/cover; 
+}
+#works .row:first-child > div:nth-child(2){
+    background: url('../images/product-2.jpg') no-repeat left top/cover; 
+}
+#works .row:first-child > div:nth-child(3){
+   background: url('../images/product-3.png') no-repeat left top/cover; 
+}
+#works .row:first-child > div:last-child{
+    background: url('../images/product-4.jpg') no-repeat left top/cover; 
+}
+
+#works .row:nth-child(even) > div:first-child{
+    background: url('../images/product-5.jpg') no-repeat left top/cover; 
+}
+#works .row:nth-child(even) > div:nth-child(2){
+ background: url('../images/product-6.jpg') no-repeat left top/cover; 
+}
+#works .row:nth-child(even) > div:nth-child(3){
+  background: url('../images/product-7.jpg') no-repeat left top/cover; 
+}
+#works .row:nth-child(even) > div:last-child{
+   background: url('../images/product-8.jpg') no-repeat left top/cover; 
+}
+
+#works .row > div{
+	cursor: pointer;
+}
+
+#works .row > div:hover .work-hover{
+ visibility: visible;
+}
+.carousel-indicators li{
+       width:10px;
+	 height: 10px; 
+	 border-radius: 50%;
+	   background: white;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.carousel-indicators .active{
+    -webkit-transform: scale(1.2,1.2);
+       -moz-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+         -o-transform: scale(1.2,1.2);
+            transform: scale(1.2,1.2); background:white
+}
+.progress{
+	height: 5px !important
+}
+.progress-bar{
+	background: var(--theme) !important
+}
+.skill-p{
+	padding-bottom: 0px !important; font-weight: bold;
+    padding-top: 50px !important
+}
+ 
+@media screen and (max-width: 991px){
+ 
+}
+@media screen and (max-width: 767px){
+       .form-div{
+     padding:15px !important; height: auto !important
+   }	
+   #need-project{
+   	 padding: 15px !important; text-align: left !important
+   } 
+   .form-container{
+   	padding: 0px !important
+   }   
+}
+@media screen and (max-width: 576px){
+   header{
+   	height: auto !important; 
+
+  
+   }
+
+     
+}
+montserrat-meium, nunito sans regular
